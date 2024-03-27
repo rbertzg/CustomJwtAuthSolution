@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityManagerServerApi", "IdentityManagerServerApi\IdentityManagerServerApi.csproj", "{FA024EE8-4C8A-4D49-B088-B9283339BE09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedClassLibrary", "SharedClassLibrary\SharedClassLibrary.csproj", "{99274057-84FE-4227-95B5-6DA74316DF00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA024EE8-4C8A-4D49-B088-B9283339BE09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA024EE8-4C8A-4D49-B088-B9283339BE09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA024EE8-4C8A-4D49-B088-B9283339BE09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA024EE8-4C8A-4D49-B088-B9283339BE09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99274057-84FE-4227-95B5-6DA74316DF00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99274057-84FE-4227-95B5-6DA74316DF00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99274057-84FE-4227-95B5-6DA74316DF00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99274057-84FE-4227-95B5-6DA74316DF00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {06B47B0E-7913-49A1-8BE6-B0DE55B6801D}
+	EndGlobalSection
+EndGlobal
