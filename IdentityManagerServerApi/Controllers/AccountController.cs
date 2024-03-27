@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SharedClassLibrary.Contracts;
 using SharedClassLibrary.Dtos;
+using SharedClassLibrary.DTOs;
 
 namespace IdentityManagerServerApi.Controllers
 {
@@ -12,6 +13,12 @@ namespace IdentityManagerServerApi.Controllers
         public async Task<IActionResult> Register(UserDTO userDTO)
         {
             var response = await userAccount.CreateAccount(userDTO);
+            return Ok(response);
+        }
+        [HttpPost("login")]
+        public async Task<IActionResult> Login(LoginDTO loginDTO)
+        {
+            var response = await userAccount.LoginAccount(loginDTO);
             return Ok(response);
         }
     }
